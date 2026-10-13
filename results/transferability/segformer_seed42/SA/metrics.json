@@ -1,0 +1,20 @@
+{
+  "region": "SA",
+  "architecture": "segformer_b0",
+  "checkpoint": "results/segformer_seed42/best.pt",
+  "model_size": 256,
+  "tile": 256,
+  "halo": 32,
+  "tiles_evaluated": 1518,
+  "valid_pixels": 95576460,
+  "tp": 52290,
+  "tn": 54600695,
+  "fp": 40838387,
+  "fn": 85088,
+  "dice": 0.002548987515981442,
+  "iou": 0.0012761201651756834,
+  "precision": 0.0012787755996311822,
+  "recall": 0.3806286304939378,
+  "specificity": 0.5720999600561958,
+  "accuracy": 0.5718247463862963
+}

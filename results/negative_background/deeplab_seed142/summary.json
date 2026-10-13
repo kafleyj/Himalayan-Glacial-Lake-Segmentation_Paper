@@ -1,0 +1,32 @@
+{
+  "model": "deeplab",
+  "seed": 142,
+  "n_images": 19,
+  "threshold": 0.5,
+  "total_fp_pixels": 3648,
+  "mean_fp_pixels_per_image": 192.0,
+  "mean_fp_pixels_per_km2": 29.296875,
+  "mean_fp_components_per_image": 3.210526315789474,
+  "false_alarm_image_rate": 1.0,
+  "by_basin": {
+    "Gandaki": {
+      "n_images": 7,
+      "mean_fp_pixels": 155.42857142857142,
+      "mean_fp_components": 3.4285714285714284,
+      "false_alarm_image_rate": 1.0
+    },
+    "Karnali": {
+      "n_images": 8,
+      "mean_fp_pixels": 96.25,
+      "mean_fp_components": 2.625,
+      "false_alarm_image_rate": 1.0
+    },
+    "Koshi": {
+      "n_images": 4,
+      "mean_fp_pixels": 447.5,
+      "mean_fp_components": 4.0,
+      "false_alarm_image_rate": 1.0
+    }
+  },
+  "status": "PROVISIONAL_INVENTORY_NEGATIVE"
+}

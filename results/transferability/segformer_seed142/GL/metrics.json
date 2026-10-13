@@ -1,0 +1,20 @@
+{
+  "region": "GL",
+  "architecture": "segformer_b0",
+  "checkpoint": "results/segformer_seed142/best.pt",
+  "model_size": 256,
+  "tile": 256,
+  "halo": 32,
+  "tiles_evaluated": 1089,
+  "valid_pixels": 69263136,
+  "tp": 66388,
+  "tn": 67060920,
+  "fp": 1647016,
+  "fn": 488812,
+  "dice": 0.058527623155032536,
+  "iou": 0.03014599839434447,
+  "precision": 0.03874626182733296,
+  "recall": 0.11957492795388833,
+  "specificity": 0.9760287370588455,
+  "accuracy": 0.9691635677599117
+}

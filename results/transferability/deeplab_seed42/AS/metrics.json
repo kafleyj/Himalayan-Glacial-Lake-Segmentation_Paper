@@ -1,0 +1,20 @@
+{
+  "region": "AS",
+  "architecture": "deeplabv3plus",
+  "checkpoint": "results/deeplab_seed42/best.pt",
+  "model_size": 256,
+  "tile": 256,
+  "halo": 32,
+  "tiles_evaluated": 992,
+  "valid_pixels": 62524396,
+  "tp": 7493,
+  "tn": 62158607,
+  "fp": 323053,
+  "fn": 35243,
+  "dice": 0.04014659158491328,
+  "iou": 0.020484486958327875,
+  "precision": 0.0226685544523297,
+  "recall": 0.1753322725570537,
+  "specificity": 0.994829634808038,
+  "accuracy": 0.9942695008201278
+}

@@ -1,0 +1,32 @@
+{
+  "model": "segformer",
+  "seed": 242,
+  "n_images": 19,
+  "threshold": 0.5,
+  "total_fp_pixels": 5388,
+  "mean_fp_pixels_per_image": 283.57894736842104,
+  "mean_fp_pixels_per_km2": 43.27071340460526,
+  "mean_fp_components_per_image": 2.5789473684210527,
+  "false_alarm_image_rate": 1.0,
+  "by_basin": {
+    "Gandaki": {
+      "n_images": 7,
+      "mean_fp_pixels": 384.2857142857143,
+      "mean_fp_components": 2.857142857142857,
+      "false_alarm_image_rate": 1.0
+    },
+    "Karnali": {
+      "n_images": 8,
+      "mean_fp_pixels": 204.125,
+      "mean_fp_components": 2.125,
+      "false_alarm_image_rate": 1.0
+    },
+    "Koshi": {
+      "n_images": 4,
+      "mean_fp_pixels": 266.25,
+      "mean_fp_components": 3.0,
+      "false_alarm_image_rate": 1.0
+    }
+  },
+  "status": "PROVISIONAL_INVENTORY_NEGATIVE"
+}

@@ -1,0 +1,20 @@
+{
+  "region": "NA",
+  "architecture": "unet",
+  "checkpoint": "results/unet_seed42/best.pt",
+  "model_size": 352,
+  "tile": 256,
+  "halo": 32,
+  "tiles_evaluated": 2079,
+  "valid_pixels": 131143375,
+  "tp": 45829,
+  "tn": 110262836,
+  "fp": 20549460,
+  "fn": 285250,
+  "dice": 0.0043800242832392105,
+  "iou": 0.0021948188214873177,
+  "precision": 0.0022252176213696235,
+  "recall": 0.13842315580268943,
+  "specificity": 0.8429088042304523,
+  "accuracy": 0.8411302896543572
+}

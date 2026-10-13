@@ -1,0 +1,20 @@
+{
+  "region": "GL",
+  "architecture": "deeplabv3plus",
+  "checkpoint": "results/deeplab_seed142/best.pt",
+  "model_size": 256,
+  "tile": 256,
+  "halo": 32,
+  "tiles_evaluated": 1089,
+  "valid_pixels": 69263136,
+  "tp": 132870,
+  "tn": 63685069,
+  "fp": 5022867,
+  "fn": 422330,
+  "dice": 0.0465317687797991,
+  "iou": 0.02382007960822266,
+  "precision": 0.025771291281925308,
+  "recall": 0.23931916426512537,
+  "specificity": 0.9268953880378532,
+  "accuracy": 0.9213839090392902
+}

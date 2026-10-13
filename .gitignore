@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Large datasets
+data/
+datasets/
+*.tif
+*.tiff
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Local paths and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# HPC logs
+logs/
+slurm-*.out
+
+# Generated artifacts
+*.zip
